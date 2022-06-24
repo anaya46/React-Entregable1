@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+ 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  margin-top: -10vh;
+  border: 2px solid transparent;
+  background-color: aliceblue;
+  padding: 0.5rem;
+  font-weight: bold;
+  box-shadow: 5px 5px 8px rgba(53, 52, 52, 0.533);
+  display: grid;
+  
+  
+  
+}
+.author{
+  text-align: right;
+}
+button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-left:30vw ;
+ }
+ .text{
+ margin-top: 0;
+ }
+
+ .quote-icon{
+  font-size: 50px;
+  margin-right: 30vw;
+ 
+
+  
+  
+  
+ }
